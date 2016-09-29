@@ -36,15 +36,15 @@ Log Event with Firebase Analytic.For more usage about Firebase Analytic Unity  [
 ###  Using Google Play Game Achievements and Leaderboards in Unity game
 
 1. Login with google play service
-
+```
 	GoogleGame.Instance().login (true, false);
-
+```
 2. You can call google play game api after login success such as show Leaderboards with default UI
-
+```
 	GoogleGame.Instance().showLeaderboards();
-
+```
 3. Show Google play game Achievements with default UI
-
+```
 	GoogleGame.Instance().showAchievements();
-
+```
 4.Fore more usage about google play game service in unity [Unity Google Play Game  Tutorial](https://github.com/unity-plugins/google-play-game-service-unity-plugin/wiki/google--Play-Game-Service-unity-plugin-Tutorial)
