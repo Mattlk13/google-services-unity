@@ -92,33 +92,7 @@ namespace google.service.game
         {
             
         }  
-        public void logEvent(string name, string jsonObjectString)
-        {
-        
-        }
-        public void setUserProperty(string name,string value)
-        {
-        
-        }
-        public void setUserId(string userID)
-        {
-        
-        }
-
-        public void setSessionTimeoutDuration(long milliseconds)
-        {
-        
-        }
-
-        public void setMinimumSessionDuration(long milliseconds)
-        {
-        
-        }
-
-        public void setAnalyticsCollectionEnabled(bool enable)
-        {
-        
-        }
+       
 #endif
 
     }

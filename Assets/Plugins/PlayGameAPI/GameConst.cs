@@ -56,6 +56,11 @@ namespace google.service.game
 
         public static readonly int SORT_ORDER_MOST_RECENT_FIRST = 0;
         public static readonly int SORT_ORDER_SOCIAL_AGGREGATION = 1;
+        
+         /** Standard activity result: operation canceled. */
+    public static readonly int RESULT_CANCELED    = 0;
+    /** Standard activity result: operation succeeded. */
+    public static readonly int RESULT_OK           = -1;
 
     }
 }
