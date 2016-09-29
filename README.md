@@ -17,7 +17,9 @@ Google Play Game Service Unity Plugin is a Unity Plugin For Google Service.Suppo
 2. Navigate to **Assets -> Import Package -> Custom Package**.
 3. Select the google_service_unity_plugin.unitypackage file.
 4. Import all of the files for the plugins by selecting **Import**. Make sure
-   to check for any conflicts with files.
+   to check for any conflicts with files.playgamedemo.cs and game.unity is demo file  can be ignored.
+5. replace all "com.google.demo" with your app package id in AndroidManifest.xml
+6. replace app_id content with your google play game id,replace google_app_id content with your google firebase app id in ids.xml
 
 
 ### Show Admob Ads in Unity game
