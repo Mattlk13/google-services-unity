@@ -24,6 +24,7 @@ Google Play Game Service Unity Plugin is a Unity Plugin For Google Service.Suppo
 
 ### Show Admob Ads in Unity game
 
+	using admob;
 	Admob.Instance().initAdmob("ca-app-pub-3940256099942544/2934735716", "ca-app-pub-3940256099942544/4411468910");
 	Admob.Instance().showBannerRelative(AdSize.Banner, AdPosition.BOTTOM_CENTER, 30, "defaultBanner");
 
@@ -31,6 +32,7 @@ just 2 line code,admob banner will been shown on screen.for more usage  [Unity A
 
 ### Analytic Unity game with firebase Analytic
 
+	using google.service.game;
 	FirebaseAnalytic.Instance().logEvent("appstart", "{\"time\":\"112222\",\"name\":\"demouser\"}");
 
 Log Event with Firebase Analytic.For more usage about Firebase Analytic Unity  [Unity Firebase Analytic Tutorial](https://github.com/unity-plugins/google-play-game-service-unity-plugin/wiki/Firebase-Analytic-Unity-Plugin-Tutorial)
@@ -39,6 +41,7 @@ Log Event with Firebase Analytic.For more usage about Firebase Analytic Unity  [
 
 1. Login with google play service
 ```
+	using google.service.game;
 	GoogleGame.Instance().login (true, false);
 ```
 2. You can call google play game api after login success such as show Leaderboards with default UI
