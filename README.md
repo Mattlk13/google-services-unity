@@ -55,4 +55,4 @@ Log Event with Firebase Analytic.For more usage about Firebase Analytic Unity  [
 4.Fore more usage about google play game service in unity [Unity Google Play Game  Tutorial](https://github.com/unity-plugins/google-play-game-service-unity-plugin/wiki/google--Play-Game-Service-unity-plugin-Tutorial)    
      
     
-[Google Service Unity Plugin Project Home](https://github.com/unity-plugins/google-play-game-service-unity-plugin/)
+Project Home   https://github.com/unity-plugins/google-play-game-service-unity-plugin/
