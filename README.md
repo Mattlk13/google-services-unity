@@ -9,6 +9,7 @@ Google Play Game Service Unity Plugin is a Unity Plugin For Google Service.Suppo
 * [Unity Admob Tutorial](https://github.com/unity-plugins/google-play-game-service-unity-plugin/wiki/Admob-Unity-Plugin--Tutorial)
 * [Unity Firebase Analytic Tutorial](https://github.com/unity-plugins/google-play-game-service-unity-plugin/wiki/Firebase-Analytic-Unity-Plugin-Tutorial)
 * [Unity Play Game Service Tutorial](https://github.com/unity-plugins/google-play-game-service-unity-plugin/wiki/google--Play-Game-Service-unity-plugin-Tutorial)
+* [Firebase Remote config and log](https://github.com/unity-plugins/google-play-game-service-unity-plugin/wiki/Firebase---Service--Remote-Config-and-Log)
 
 ## Quick Start
 
