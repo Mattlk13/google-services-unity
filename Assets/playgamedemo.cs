@@ -154,7 +154,7 @@ public class playgamedemo : MonoBehaviour {
         }
         if (GUI.Button(new Rect(120, 580, 100, 60), "NativeBanner"))
         {
-            Admob.Instance().showNativeBannerRelative(new AdSize(320, 120), AdPosition.BOTTOM_CENTER, 0, "ca-app-pub-3940256099942544/xxxxxxxxx");
+            Admob.Instance().showNativeBannerRelative(new AdSize(320, 120), AdPosition.BOTTOM_CENTER, 0, "ca-app-pub-6908989844804937/5541215009");
         }
         if (GUI.Button(new Rect(240, 580, 100, 60), "hideBanner"))
         {

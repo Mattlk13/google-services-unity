@@ -21,6 +21,9 @@ Google Service Unity Plugin is a Unity Plugin For Google Service.Include Google 
    to check for any conflicts with files.playgamedemo.cs and game.unity is demo file  can be ignored.
 5. replace all "com.google.demo" with your app package id in AndroidManifest.xml
 6. replace app_id content with your google play game id,replace google_app_id content with your google firebase app id in ids.xml
+7. replace  google-services.json  with your json file 
+
+
 
 
 ### Show Admob Ads in Unity game
