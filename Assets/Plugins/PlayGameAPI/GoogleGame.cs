@@ -32,7 +32,7 @@ namespace google.service.game
 
 		public void login(bool driveAPI,bool plusAPI)
 		{
-		Debug.Log("calling login");
+		Debug.Log("calling login"+ (gameEventHandler==null));
 		}
 		public void loginOut()
 		{

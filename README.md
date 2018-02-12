@@ -19,9 +19,8 @@ Google Service Unity Plugin is a Unity Plugin For Google Service.Include Google 
 3. Select the google_service_unity_plugin.unitypackage file.
 4. Import all of the files for the plugins by selecting **Import**. Make sure
    to check for any conflicts with files.playgamedemo.cs and game.unity is demo file  can be ignored.
-5. replace all "com.google.demo" with your app package id in AndroidManifest.xml
-6. replace app_id content with your google play game id,replace google_app_id content with your google firebase app id in ids.xml
-7. replace  google-services.json  with your json file 
+5. replace all "com.google.demo" with your app package id in AndroidManifest.xml 
+6. replace content of ids.xml and  google-services.json  with your config file
 
 
 
@@ -59,6 +58,6 @@ Log Event with Firebase Analytic.For more usage about Firebase Analytic Unity  [
 4.Fore more usage about google play game service in unity [Unity Google Play Game  Tutorial](https://github.com/unity-plugins/google-play-game-service-unity-plugin/wiki/google--Play-Game-Service-unity-plugin-Tutorial)    
      
     
-![ScreenShot](https://raw.githubusercontent.com/unity-plugins/google-play-game-service-unity-plugin/master/screen.png) 
+![ScreenShot](https://raw.githubusercontent.com/unity-plugins/google-play-game-service-unity-plugin/master/screen.jpg) 
 
 Project Home   https://github.com/unity-plugins/google-play-game-service-unity-plugin/

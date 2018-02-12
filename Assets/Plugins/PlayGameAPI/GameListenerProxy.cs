@@ -15,7 +15,7 @@ namespace google.service.game
              if(listener!=null)
 			listener.onGameEvent(result_code,eventName,eventData);
          }
-		string toString(){
+		override public string toString(){
 			return "GameListenerProxy";
 		}
 	}
