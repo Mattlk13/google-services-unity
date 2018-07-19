@@ -7,12 +7,26 @@ using System;
 public class playgamedemo : MonoBehaviour {
 
 	// Use this for initialization
+		string bannerID="";
+	string interstitialID="";
+	string videoID="";
 	GoogleGame game;
 	void Start () {
         Debug.Log("start unity demo-------------");
+                	#if UNITY_IOS
+        		 //appID="ca-app-pub-3940256099942544~1458002511";
+				 bannerID="ca-app-pub-3940256099942544/2934735716";
+				 interstitialID="ca-app-pub-3940256099942544/4411468910";
+				 videoID="ca-app-pub-3940256099942544/1712485313";
+        	#elif UNITY_ANDROID
+        		 //appID="ca-app-pub-3940256099942544~3347511713";
+				 bannerID="ca-app-pub-3940256099942544/6300978111";
+				 interstitialID="ca-app-pub-3940256099942544/1033173712";
+				 videoID="ca-app-pub-3940256099942544/5224354917";
+			#endif
 		game = GoogleGame.Instance();
 		game.gameEventHandler += onGameEvent;
-        Admob.Instance().initAdmob("ca-app-pub-3940256099942544/2934735716", "ca-app-pub-3940256099942544/4411468910");
+        Admob.Instance().initAdmob(bannerID,interstitialID);
 	}
 	
 	// Update is called once per frame
@@ -88,7 +102,7 @@ public class playgamedemo : MonoBehaviour {
         }
         if (GUI.Button(new Rect(0, 320, 100, 60), "writesnap"))
         {
-            Application.CaptureScreenshot("snapshot.png");
+            ScreenCapture.CaptureScreenshot("snapshot.png");
             string snapshotfilePath = Application.persistentDataPath + "/snapshot.png";
             game.writeSnapshot(snapshotfilePath, System.Text.Encoding.UTF8.GetBytes("{'score':20}"));
         }
@@ -152,9 +166,16 @@ public class playgamedemo : MonoBehaviour {
                 Admob.Instance().loadInterstitial();
             }
         }
-        if (GUI.Button(new Rect(120, 580, 100, 60), "NativeBanner"))
+        if (GUI.Button(new Rect(120, 580, 100, 60), "Video"))
         {
-            Admob.Instance().showNativeBannerRelative(new AdSize(320, 120), AdPosition.BOTTOM_CENTER, 0, "ca-app-pub-3940256099942544/2934735716");
+        	if (Admob.Instance().isRewardedVideoReady())
+            {
+                Admob.Instance().showRewardedVideo();
+            }
+            else
+            {
+            	Admob.Instance().loadRewardedVideo(videoID);
+            }
         }
         if (GUI.Button(new Rect(240, 580, 100, 60), "hideBanner"))
         {

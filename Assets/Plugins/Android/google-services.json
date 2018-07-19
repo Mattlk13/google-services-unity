@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:263495946164:android:ab988918fd3cee93",
         "android_client_info": {
-          "package_name": "com.google.demo"
+          "package_name": "so.phonegame.demo"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "263495946164-jm7s88e0h86t09juo6rjf0og2siqus40.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.google.demo",
+            "package_name": "so.phonegame.demo",
             "certificate_hash": "69678991498AF3B3527DEF4D72A6D33785235AFA"
           }
         },
