@@ -2,6 +2,9 @@ Google  Service Unity Plugin
 ==============================
 Google Service Unity Plugin is a Unity Plugin For Google Service.Include Google Admob Unity,Firebase Analytic Unity,Google Game API Unity. Login,Achievement,Leaderboard,Event,Quest,Snapshot,RealTimePlayGame,TurnbasedPlayGame API are supported and easy to use with c# or js.
 
+## New Version 
+https://github.com/unity-plugins/google-play-game-service-for-unity3d
+
 ## Unity Plugin Wiki and Documentation
 * [Unity Admob API](https://github.com/unity-plugins/google-play-game-service-unity-plugin/wiki/Admob-Unity-Plugin-API)
 * [Unity Firebase Analytic API](https://github.com/unity-plugins/google-play-game-service-unity-plugin/wiki/Firebase-Analytic-Unity-Plugin-API)
